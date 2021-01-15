@@ -1,0 +1,10 @@
+git 
+
+git add file 
+git commit -m "hello"
+git push -u origin main  ,,, to add the changes to main file 
+
+
+
+
+git pull >> to get a changes from local repo 
