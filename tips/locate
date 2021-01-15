@@ -1,0 +1,3 @@
+locate 
+
+locate -r "\.nse$"  >>>>> to locate all file thats end with .nse 

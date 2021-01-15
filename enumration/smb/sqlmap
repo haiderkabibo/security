@@ -1,0 +1,3 @@
+sqlmap 
+
+sqlmap -R nameofshare -H ip >>> to download all files inside share

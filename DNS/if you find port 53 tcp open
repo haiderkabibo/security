@@ -1,0 +1,4 @@
+if you find port 53 tcp open 
+you must try zone transfer imedittly 
+you will make zone transfer to domain to get all of records cauzq of virtual host in web request 
+so do dig 

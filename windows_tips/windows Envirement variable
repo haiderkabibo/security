@@ -1,0 +1,7 @@
+windows Envirement variable 
+
+%SystemDrive% 	C: 
+%SystemRoot%  	C:\WINDOWS
+%SystemDirectory% C:\WINDOWS\System32
+%Temp%  	C:\Users\W\AppData\Local\Temp
+%USERPROFILE%  	C:\Users\<USERNAME>

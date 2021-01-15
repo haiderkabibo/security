@@ -1,0 +1,8 @@
+to tunnel via ssh use -D8877(port number)
+use proxychains conf file to make sock5 proxy 
+sock5 localip port 
+
+after that use proxychains command 
+
+
+now all traffic with this command will go through box with ssh 

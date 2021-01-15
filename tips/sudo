@@ -1,0 +1,21 @@
+sudo 
+su - ahmad ----> to get shell login as ahmad 
+su - --------> to login as root but you must type root password 
+@ahmad:sudo su - ---------> get shell as root if ahmad in sudoers file and have all permission but you must type only ahmad password not a root password 
+@ahmad : sudo -l --------> to get all permission that belong to ahmad  if ahmad is in sudoers file 
+
+-------------------------------------------------------------------------------------------------------------------
+ sysadmin ALL = (root) /usr/bin/cat /etc/shadow
+  >>>>>>>  User “sysadmin” can Run the command “/usr/bin/cat /etc/shadow” as ROOT user on all the HOSTS.
+
+ User <space> OnHost = (Runas-User:Group) <space> Commands
+ 
+ maybe you can add no password to sudoers file so you can use sudo without password 
+ as 
+ ahmad (ALL : ALL) NOPASSWD: ALL
+---------------------------------------------------------------------------------------------------------------------
+
+you can use sudo to run command as another user 
+
+sudo -u "name of user " command >>>
+

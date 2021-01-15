@@ -1,0 +1,10 @@
+wordpress tips 
+
+to enumrate users mannaly just do ?author=o; author=1 ....etc
+to show plugin do /plugins 
+must phpmyadmin be in /phpmyadmin 
+
+cat wp-config.php to get database password 
+
+
+go to theme -> edit -> put reverse shell in header.php -> upload it

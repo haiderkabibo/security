@@ -1,0 +1,7 @@
+bettercap
+help 
+module on:
+help htttps.proxy  >>> help for module 
+ 
+
+ for set any thing inside module use : set https.proxy.ssl true 

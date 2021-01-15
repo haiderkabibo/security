@@ -1,0 +1,11 @@
+Empire 
+1- make listner : listners 
+                  uselistener
+                  set host and port for listner and for payload 
+                  execute 
+                  back 
+
+2-make a payload: launcher powershell http 
+                   copy it and paste it in .ps1 file 
+
+                   

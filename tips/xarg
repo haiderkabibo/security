@@ -1,0 +1,8 @@
+xarg 
+
+take from input, take every line and apply command on it 
+
+ex: locate -r "\.nse$" | xarge cat 
+
+
+so thats will cat every file ends with .nse

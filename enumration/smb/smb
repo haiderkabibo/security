@@ -1,0 +1,5 @@
+smb 
+
+port 445 
+
+with it (135 rpc,139 netbios)

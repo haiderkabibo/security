@@ -1,0 +1,7 @@
+pivoting
+
+use sock proxy in msfcosole 
+
+add route to for ip to specifi session like :
+add route "ip" "session number"
+use sock5 or sock4  in proxychains 

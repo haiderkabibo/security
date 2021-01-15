@@ -1,0 +1,7 @@
+smbclient
+
+use smbclient -L //ip >>>>> to list all shares 
+smbclient //ip/share >>>>>>> to open share 
+
+
+

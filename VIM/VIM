@@ -1,0 +1,14 @@
+VIM 
+:q to quit from file 
+:q! quit without saving 
+:wq quit with saving 
+:set number    show numbers in the file 
+
+i to enter in insert mode 
+Esc  to back to command mode 
+dd delete this line 
+3 dd delete three lines  
+u to undo 
+ctrl+r redo
+/your search >>>>> n to go to next >>>> N to go to upper 
+%s/texttoreplace/newtext/g >>>> g gor greevy 

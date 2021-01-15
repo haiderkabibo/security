@@ -1,0 +1,5 @@
+use brube to make ssl connection for any application like python script or python:
+   add rule to proxy 
+          add listen ip and port 
+          add destination port and ip and force it to use ssl by chake box 
+          make your application send its data to io that burb is listning to 

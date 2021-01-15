@@ -1,0 +1,16 @@
+from php command execution 
+
+
+to make reverse shell :
+1- run any command that get you a reverse shell like : nc , python, ruby 
+2- upload a payload that give you a reverse shell like msfvenom and run it 
+3- upload php file .php and when you run it as web page so it can give you connection to your machine and you gain a reverse shell 
+
+
+
+
+if you have file uploading : 
+1- upload php shell file .php so you can do a command (command execution ) and do steps above if you want 
+2- 3- upload php file .php and when you run it as web page so it can give you connection to your machine and you gain a reverse shell 
+
+

@@ -1,0 +1,3 @@
+IPTABLES 
+IPTABLES -L >>>> to show 
+IPTABLES -A(append) OUTPUT(to output ) -d (destination) ip -j (jump) (DROP)

@@ -1,0 +1,5 @@
+nmap scripts 
+
+--script vulun >>>> vulnurbility cheker 
+nmap --script safe -p455 ip >> do all safe script scan to port 445 wich means smb 
+sudo nmap --script "smb*" -p445 10.10.10.100 >>>>> run all smb scripts

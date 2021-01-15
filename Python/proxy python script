@@ -1,0 +1,4 @@
+proxy python script 
+
+1- make a dictionary : http = {'http':'http://127.0.0.1:8080'}
+2- add it to each request like (proxies=http)

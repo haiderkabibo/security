@@ -1,0 +1,6 @@
+wlan.bssid – filters by AP MAC address
+wlan_mgm.ssid – shows Management Frames related to a SSID
+wlan.addr – all frames “from” or “to” a specific MAC
+wlan.da – search frame with specific Destination Address
+wlan.sa – search frame with specific Source Address
+wlan.fc.wep – WEP encrypted frames

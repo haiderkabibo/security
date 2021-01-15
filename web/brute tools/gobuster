@@ -1,0 +1,10 @@
+gobuster 
+gobuster dir -x php -t 15 -u http://bank.htb/ -w /usr/share/wordlists/dirb/big.txt
+
+search for directories and pages that extinsion is php with 15 thread
+
+
+use /seclists/discovery/web/common.txt
+
+
+

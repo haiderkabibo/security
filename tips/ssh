@@ -1,0 +1,11 @@
+ssh 
+
+you can generate ssh keys by
+ 
+ ssh-keygen -t rsa -C "your_email@example.com"
+ thats will genearate in .shh a id_rsa.pub and a id_rsa 
+
+
+rename your public key "id_rsa.pub" to "authorized_keys" and put it in .ssh directory in vicitm machine and now ypu can login wothout password 
+
+ssh user@ip --->>> 

