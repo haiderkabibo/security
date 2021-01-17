@@ -1,6 +1,6 @@
 git 
 
-git add file 
+git add file >>>> use instead git add * >> thats git all file changed only 
 git commit -m "hello"
 git push -u origin main  ,,, to add the changes to main file 
 
