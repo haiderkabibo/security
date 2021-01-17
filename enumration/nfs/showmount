@@ -1,0 +1,4 @@
+nfs 
+
+showmount -e to show nfs files 
+showmount -a (to list all client associated with this specific mount)
