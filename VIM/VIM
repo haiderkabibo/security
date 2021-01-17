@@ -12,3 +12,12 @@ u to undo
 ctrl+r redo
 /your search >>>>> n to go to next >>>> N to go to upper 
 %s/texttoreplace/newtext/g >>>> g gor greevy 
+
+
+
+y to copy 
+d to cut 
+p to paste 
+
+go to end of the file shift + g
+

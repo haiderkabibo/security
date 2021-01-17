@@ -1,9 +1,12 @@
 tips
 use : cmd /c "command" to run it from outside the command line 
 use: powershell -c "comand" to do same 
+use cmd /c powershell IEX (your expression) you can use it without -c 
 use: cmd /c powershell -c "command" or cmd /c powershell "command" to run powershell command from cmd 
 use: cmd /c powershell -f 1.ps1 " to run ps1 from cmd"
 
 powershell is in c:\windows\system32\powershell\v1.0\powershell.exe
 
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Save every file in C:/users/Public
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
