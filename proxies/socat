@@ -1,0 +1,8 @@
+socat 
+
+socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
+
+
+use socat to portforwarding 
+
+in this command every tcp packet comming to port 135 will forwarded to  ip:10.10.10.180 to port 999

