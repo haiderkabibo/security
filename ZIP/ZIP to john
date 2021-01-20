@@ -1,0 +1,8 @@
+ZIP to john 
+
+
+if a zip file is locked with tool named zip2john
+
+
+after that save the hash that extracted to file 
+and now run john to it with wordlist 

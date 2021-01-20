@@ -10,5 +10,5 @@ if need ps1 reverse shell so use nishang framwork
 
 tasklist to list all task in windows 
 
-
+runas /user "name of user" command 
 

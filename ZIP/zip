@@ -1,0 +1,5 @@
+zip 
+if zip file contain password and you need to list file inside it so use 
+
+7z -l 
+unzip -l (meaning list file)

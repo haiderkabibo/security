@@ -1,3 +1,7 @@
+~C  to get to command mode in ssh 
+
+
+
 to tunnel via ssh use -D8877(port number)
 use proxychains conf file to make sock5 proxy 
 sock5 localip port 
@@ -6,3 +10,12 @@ after that use proxychains command
 
 
 now all traffic with this command will go through box with ssh 
+
+
+
+
+
+
+-L port:host:hostport
+pecifies that connections to the given TCP port on the local (client) host are to be forwarded to the given host and port
+ex:ssh -L 4433:127.0.0.1:5000 so by this every request in attacker machine in port 4433 will forwaded to localhost (127.0.0.1) and port 5000 on target machine 
