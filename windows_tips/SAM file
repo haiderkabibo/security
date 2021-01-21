@@ -1,0 +1,9 @@
+SAM file
+
+impacket-secretsdump -sam SAM -system SYSTEM local
+
+to extract hashes 
+
+nofusee:userid:lmhash:NTLM
+
+you need NTLM >>> 31de is empty 

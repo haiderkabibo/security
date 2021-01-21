@@ -10,3 +10,8 @@ powershell is in c:\windows\system32\powershell\v1.0\powershell.exe
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 Save every file in C:/users/Public
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
+VHD (Virtual Hard Disk)  file formats representing a virtual hard disk drive (HDD). They may contain what is found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. They are typically used as the hard disk of a virtual machine, are built into modern versions of Windows, and are the native file format for Microsoft's hypervisor (virtual machine system), Hyper-V. 
+
+use 7z l n.vhd to list all files
+guestmount to mount vhd files guestmount  --add nmaeof/vhd --inspector --ro -v /dest
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""

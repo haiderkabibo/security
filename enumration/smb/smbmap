@@ -1,3 +1,9 @@
-sqlmap 
+smbmap 
 
-sqlmap -R nameofshare -H ip >>> to download all files inside share
+smbmap -u "anyname" -H ip >>>> to list all shares with ananymouse 
+
+
+smbmap -R nameofshare -H ip >>> to download all files inside share
+
+
+if you have user name and hashes you can use smbmap -u "username" -h "hashes" -H ip

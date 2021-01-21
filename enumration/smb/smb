@@ -2,4 +2,8 @@ smb
 
 port 445 
 
-with it (135 rpc,139 netbios)
+with it (135 rpc,139 netbios)\
+
+to mount a smb file without download it 
+
+use mount -t cifs //ip/nameoffile /dest
