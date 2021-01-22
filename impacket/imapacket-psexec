@@ -1,0 +1,12 @@
+imapacket-psexec
+
+get a shell from smb 
+
+
+if you have smb login cred for admin you can get a shell by use 
+
+impacket-psexec
+
+psexec administrator@ip 
+
+and will promp you for password 

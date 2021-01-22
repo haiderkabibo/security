@@ -1,0 +1,8 @@
+winrm 
+port 5985
+
+remote shell like powershell 
+
+to brute force it use msf module winrm (scanner module)
+
+to connect to it use evil-winrm github 

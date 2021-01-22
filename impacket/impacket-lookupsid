@@ -1,0 +1,10 @@
+impacket-lookupsid
+IPPSEC Hiest
+if you have a login credintial for smb account for some user so to enumrate another accounts by 
+
+ impacket-lookupsid :
+A security identifier (SID) is a unique value of variable length that is used to identify a security principal (such as a security group) in Windows operating systems. SIDs that identify generic users or generic groups is well known. Their values remain constant across all operating systems.
+
+so for every user is a uniq SID so with this tool you can enumrate al users by get the SID for the user you log in and increase it by one
+
+lookupsid 'name:password'@ip

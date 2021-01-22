@@ -1,1 +1,5 @@
 crackmapexec
+
+use crackmapexec -u usertxt -p passwordfile -h ip --shares 
+
+use it to brute smb login
