@@ -1,0 +1,52 @@
+Active Directory
+
+AD DS (Active Directory Directory Services): is a role in server that server called (Domain Controller) DC
+
+SCHEMA: what the information stored in DC about users Groups etc like :SID,ComputerName,etccc
+
+OU: Orgazitinal unite : like a group of users,computers,groups, to assign security polices to this Groups 
+
+Tree: maybe a domain like google.com has sub domain in syria so the subdomain will be syria.google.com and this two domains called tree 
+      and maybe this subdoaimn implement different scehma (or liss restricted security ploices)
+
+
+sites : Collections of users, groups, computers as defined by their physical locations. Useful during replication task each sites n=maybe has 
+        DC and the REBLICATION IN PLAY
+
+
+TRUST: two way trust if user like admin from google want to go to syria and manage things there the syira admins dont need to creat a new user , they cant add the same users account and give it permissions 
+
+forrest : two trees (domains) make with other a forrest that maybe shared same schema and trust 
+
+Global Cataloge: indexing for data stored in DC for speed the search 
+
+LDAP: Whenever a connection, a query or modification must occur
+       on a directory service, LDAP (Lightweight Directory Access
+       (Protocol) comes into play.
+
+Authintication : via kerberos 
+
+Authorization: via SID
+ Active Directory validates access to a resource based on the
+ user’s security token. The security token, in essence, is the
+ procedure of checking whether the user is included in the Access
+ Control List (ACL) for the requested object/resource.
+
+ we have two types of ACL : DACL ,SACL
+
+ DACL : A discretionary access control list (DACL) identifies the security principals that are allowed or denied access to an
+        object. When a person or process tries to access an object, the system checks the ACEs in the object's DACL to determine whether to grant access to it. When a person or process tries to access an object, the system checks the ACEs in the object's DACL to determine
+        whether to grant access to it.
+ SACL :A system access control list (SACL) enables administrators to log attempts to access a secured object. Each ACE specifies the types of 
+       access attempts by a specified principal that cause the system to generate a record in the security event log.
+
+
+SID:The primary means by which a security principal is identified when trying to access network resources is an
+    identifier called security identifier (SID). The SID attribute is unique for each user or security group.
+
+some notes for authorization :
+
+*Security principals are issued security identifiers (SIDs) when the account is created
+*User accounts are issued security tokens during authentication that include the user’s SID and all related group SIDs
+*Shared resources on a network include access control lists (ACL) that define who can access the resource
+*The security token is compared against the Discretionary Access Control List (DACL) on the resource and access is granted or denied

@@ -1,0 +1,9 @@
+steps 
+1- enum alot of hostnames via DNS and NETBIOS
+2- ENUM shares and usernames via SMB
+3-ENUM usernames via KERBEROS
+
+
+
+
+ 

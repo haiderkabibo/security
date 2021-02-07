@@ -1,0 +1,6 @@
+nmap :
+ fisrst for default port  with default script 
+ and seconds for all ports just to know what is open or not 
+ operating system detection depending on multi method 
+ must have versions of all services if we could 
+ determeine hostname from ldap maybe

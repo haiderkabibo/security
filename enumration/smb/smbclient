@@ -3,5 +3,9 @@ smbclient
 use smbclient -L //ip >>>>> to list all shares 
 smbclient //ip/share >>>>>>> to open share 
 
-
+3- use smbclient   
+   *null session log in : 
+   smbclient -L //ip and press enter to password 1
+   *try guest login : smbclient -U "guest" -L //ip
+   
 

@@ -1,0 +1,32 @@
+SMB 
+
+1- use all nmap scripts to determine versionand brute force shares  
+
+
+
+2- use crackmapexec 
+    1-to determine versiom
+    2- brute force users and passwords 
+
+
+3- use smbclient   
+   *null session log in : 
+   smbclient -L //ip and press enter to password 1
+   
+
+   *try guest login : smbclient -U "guest" -L //ip
+
+
+
+4- rpclient null auth to get the god ########rpcclient -U '' ip#########
+
+
+
+
+5- try smbmap 
+    smbmap -u "anyname" -H ip >>>> to list all shares with ananymouse  or maybe null sessions 
+    smbmap -R nameofshare -H ip >>> to download all files inside share
+    if you have user name and hashes you can use smbmap -u "username" -h "hashes" -H ip
+
+
+                  DONT FORGET TO DETERMINE DOMAIN IN SOME CASES 111

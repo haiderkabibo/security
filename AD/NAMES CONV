@@ -1,0 +1,10 @@
+NAMES CONV
+
+mat.sy is a domain 
+192.168.56.56 is ip for dns server 
+192.168.56.56 is ip for Domain controler 
+server.mat.sy is hostname for DC
+client.mat.sy is hostname for pc in domain 
+
+haidar@mat.sy or haidar is a user account or username 
+administrator@mat.sy or haidar is a user account or username 

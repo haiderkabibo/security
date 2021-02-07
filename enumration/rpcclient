@@ -18,3 +18,10 @@ rpcclient -U 'user%password' ip
 
 
 and banch banch banch of functions you must test it 
+
+
+
+
+
+
+OR TRY NULL SESSION >>>>> rpclient null auth to get the god ########rpcclient -U '' ip#########

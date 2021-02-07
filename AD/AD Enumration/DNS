@@ -1,0 +1,14 @@
+DNS :
+
+1- nslookup and do revesre host dns : put ip and get a hostname like hostname for a DC 
+2- from domain name get a records like : dig -t any mat.sy @192.168.56.56
+3- from nslookup do dns resolution to guess users : name.domain : haidar.mat.sy and get ip \
+4- try zone transfer 
+
+
+
+mat.sy is a domain 
+192.168.56.56 is ip for dns server 
+192.168.56.56 is ip for Domain controler 
+server.mat.sy is hostname for DC
+haidar.mat.sy is hostname for pc in domain 

@@ -1,0 +1,5 @@
+netbios
+
+1- netbios :
+   nbtscan -r range : you can get a netbios names
+
